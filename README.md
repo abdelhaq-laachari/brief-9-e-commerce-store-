@@ -5,7 +5,8 @@
 <p>
     <h3>Step 1: Download and Extract Latest Version of WordPress from the internet.</h3> 
     <br> 
-    1.1: To do this, you have to go to the WordPress.org website to Download WordPress. Open the link, scroll down the page, and click on the download WordPress button as shown in the image below.
+    <br>
+    1.1: To do this, you have to go to the WordPress.org website to Download WordPress. Open the link, scroll down the page, and click on the download WordPress button as shown in the image below.   
     <br>
     <img src="img/1.webp" alt="" style="width: 200px; margin:1rem;">
     <br>
