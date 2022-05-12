@@ -1,0 +1,1048 @@
+# Translation of Plugins - User Role Editor - Stable (latest release) in Arabic
+# This file is distributed under the same license as the Plugins - User Role Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-22 22:23:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5))));\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ar\n"
+"Project-Id-Version: Plugins - User Role Editor - Stable (latest release)\n"
+
+#: includes/classes/capability.php:95
+msgid "Wrong Request"
+msgstr "طلب خاطئ"
+
+#: includes/classes/editor.php:1286
+msgid "Wrong role ID"
+msgstr "معرف رتبة خاطئ"
+
+#: includes/classes/editor.php:1258
+msgid "There are no roles for deletion"
+msgstr "لا توجد رُتب (أدوار) للحذف"
+
+#: includes/classes/grant-roles.php:454
+msgid "Revoke"
+msgstr "سحب"
+
+#: includes/classes/grant-roles.php:449 includes/classes/grant-roles.php:451
+msgid "Revoke role&hellip;"
+msgstr "سحب الرتبة&hellip;"
+
+#: includes/classes/grant-roles.php:447
+msgid "Add"
+msgstr "إضافة"
+
+#: includes/classes/grant-roles.php:442 includes/classes/grant-roles.php:444
+msgid "Add role&hellip;"
+msgstr "إضافة رتبة&hellip;"
+
+#: includes/classes/editor.php:1329
+msgid "Wrong request. Default role can not be empty"
+msgstr "طلب خاطئ. الرتبة الافتراضية لا يمكن أن تكون فارغة"
+
+#: includes/classes/editor.php:1325
+msgid "This method is only for a single site of WordPress multisite installation."
+msgstr "هذه الطريقة مخصصة فقط لموقع واحد والذي جرى تثبيته كـ متعدد المواقع من ووردبريس."
+
+#: includes/classes/editor.php:1232
+msgid "You can not delete role"
+msgstr "لا يمكنك حذف الرتبة"
+
+#: includes/classes/editor.php:1228
+msgid "Role does not exist"
+msgstr "الرتبة غير موجودة"
+
+#: includes/classes/screen-help.php:85
+msgid "Super administrator only may create, edit and delete users under WordPress multi-site by default. Turn this option on in order to remove this limitation."
+msgstr "يمكن للمدير العام فقط إنشاء، وتحرير وحذف المستخدمين تحت ووردبريس متعدد المواقع بشكل افتراضي. قم بتشغيل هذا الخيار لإزالة هذا القيد."
+
+#: includes/classes/screen-help.php:66
+msgid "select roles below to assign them to the new user automatically as an addition to the primary role. Note for multisite environment: take into account that other default roles should exist at the site, in order to be assigned to the new registered users."
+msgstr "حدد الرتب أدناه لتعيينها للمستخدم الجديد تلقائيا كإضافة إلى الرتبة الأساسية. ملاحظة لبيئة المواقع المتعددة: يجب مراعاة وجود رتب افتراضية أخرى في الموقع، من أجل تخصيصها للمستخدمين المسجلين حديثًا."
+
+#: includes/classes/screen-help.php:48
+msgid "Show at the \"Users\" page a quant of users without role. Module allows to assign all of them an empty role \"No rights\", in order to look on the users list with role \"No rights\" at the separate tab then."
+msgstr "تعرض في صفحة \"المستخدمين\" كمية المستخدمين بدون رتبة. الوحدة تسمح لهم بتعيين رتبة فارغة \"بدون حقوق\" لهم، من أجل إلقاء نظرة على قائمة المستخدمين مع رتبة \"بدون حقوق\" في علامة تبويب منفصلة بعد ذلك."
+
+#: includes/classes/screen-help.php:28
+msgid "If turned off - capabilities section of selected user is shown in readonly mode. Administrator can not assign capabilities to the user directly. He should do it using roles only."
+msgstr "في حالة إيقاف التشغيل - يظهر قسم الصلاحيات للمستخدم المحدد في وضع القراءة فقط، لا يمكن للمدير تعيين إمكانيات للمستخدم مباشرة. يجب أن يجعلها تستخدم الرتب فقط."
+
+#: includes/classes/screen-help.php:22
+msgid "Capabilities like \"level_0\", \"level_1\" are deprecated and are not used by WordPress. They are left at the user roles for the compatibility purpose with old themes and plugins code. Turning on this option will show those deprecated capabilities."
+msgstr "تمّ إهمال الصلاحيات مثل \"level_0\" و \"level_1\" ولا يتم استخدامها بواسطة ووردبريس. يتم تركهم في رتب المستخدم لغرض التوافق مع القوالب القديمة وكود الإضافات. سيؤدي تشغيل هذا الخيار إلى إظهار تلك الصلاحيات المهملة."
+
+#: includes/classes/screen-help.php:19
+msgid "automatically converts capability names from the technical form for internal use like \"edit_others_posts\" to more user friendly form, e.g. \"Edit others posts\"."
+msgstr "يحول تلقائيًا أسماء الصلاحيات من النموذج التقني للاستخدام الداخلي مثل \"edit_others_posts\" إلى نموذج سهل الاستخدام، على سبيل المثال \"تحرير مقالات الآخرين\"."
+
+#: includes/classes/screen-help.php:16
+msgid "turn this option on in order to make the \"Administrator\" role available at the User Role Editor roles selection drop-down list. It is hidden by default for security reasons."
+msgstr "قم بتشغيل هذا الخيار لإتاحة رتبة \"مدير\" في القائمة المنسدلة لاختيار رتب User Role Editor. لأن الخيار مخفي بشكل افتراضي لأسباب أمنية."
+
+#: includes/classes/editor.php:234
+msgid "Wrong request!"
+msgstr "طلب خاطئ!"
+
+#: includes/classes/capability.php:56
+msgid "Error: this word is used by WordPress as a role ID"
+msgstr "خطأ: يستخدم ووردبريس هذه الكلمة كمعرف الرتبة (ID)"
+
+#: includes/settings-template.php:107
+msgid "columns"
+msgstr "أعمدة "
+
+#: includes/settings-template.php:101
+msgid "Show capabilities in"
+msgstr "عرض الصلاحيات في"
+
+#: includes/settings-template.php:42
+msgid "Tools"
+msgstr "أدوات"
+
+#: includes/classes/view.php:339
+msgid "Columns:"
+msgstr "الأعمدة:"
+
+#: includes/classes/view.php:336
+msgid "Granted Only"
+msgstr "الممنوحة فقط"
+
+#: includes/classes/view.php:320
+msgid "Granted"
+msgstr "ممنوح"
+
+#: includes/classes/view.php:320
+msgid "Total"
+msgstr "الإجمالي"
+
+#: includes/classes/view.php:320
+msgid "Group"
+msgstr "المجموعة"
+
+#: includes/classes/user-view.php:59
+msgid "Switch&nbsp;To"
+msgstr "تبديل&nbsp;إلى"
+
+#: includes/classes/user-role-editor.php:807
+msgid "If any plugins (such as WooCommerce, S2Member and many others) have changed user roles and capabilities during installation, all those changes will be LOST!"
+msgstr "إذا غيرت أي إضافات (مثل ووكومرس و S2Member والعديد غيرها) رتب المستخدم وإمكانياته أثناء التثبيت، فستكون كل هذه التغييرات مفقودة!"
+
+#: includes/classes/user-role-editor.php:806
+msgid " Resetting will restore default user roles and capabilities from WordPress core."
+msgstr " ستؤدي إعادة التعيين إلى استعادة رتب المستخدم وإمكانياته الافتراضية من ووردبريس الأساسي."
+
+#: includes/classes/user-role-editor.php:805
+msgid "DANGER!"
+msgstr "خطر!"
+
+#: includes/classes/user-role-editor.php:757
+#: includes/classes/user-role-editor.php:803
+msgid "No"
+msgstr "لا"
+
+#: includes/classes/user-role-editor.php:756
+#: includes/classes/user-role-editor.php:802
+msgid "Yes"
+msgstr "نعم"
+
+#: includes/classes/user-role-editor.php:755
+#: includes/classes/user-role-editor.php:801
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: includes/classes/user-role-editor.php:296
+msgid "To:"
+msgstr "إلى:"
+
+#: includes/classes/tools.php:40
+msgid "Reset Roles to its original state"
+msgstr "إعادة تعيين الأدوار إلى حالتها الأصلية"
+
+#: includes/classes/tools.php:32
+msgid "If checked, then apply action to ALL sites. Main site only is affected in other case."
+msgstr "إذا تم تحديده، فسيتم تطبيق الإجراء على جميع المواقع. الموقع الرئيسي فقط يتأثر في الحالة الأخرى."
+
+#: includes/classes/tools.php:24
+msgid "For more information on how to undo undesired changes and restore plugins capabilities in case you lost them by mistake go to: "
+msgstr "لمزيد من المعلومات حول كيفية التراجع عن التغييرات غير المرغوب فيها واستعادة إمكانيات الإضافات في حالة فقدانها عن طريق الخطأ، انتقل إلى:"
+
+#: includes/classes/tools.php:23
+msgid "If any plugins (such as WooCommerce, S2Member and many others) have changed user roles and capabilities during installation, those changes will be LOST!"
+msgstr "إذا قامت أي إضافة (مثل ووكومرس و S2Member والعديد غيرها) بتغيير رُتب المستخدم وإمكانياته أثناء عملية التنصيب، فستكون تلك التغييرات مفقودة!"
+
+#: includes/classes/tools.php:22
+msgid "Resetting will setup default user roles and capabilities from WordPress core."
+msgstr "ستؤدي إعادة التعيين إلى إعداد رتب وإمكانيات المستخدم الافتراضية من ووردبريس الأساسي (WP core)."
+
+#: includes/classes/tools.php:20
+msgid "WARNING!"
+msgstr "تحذير!"
+
+#: includes/classes/tools.php:64
+msgid "Tools: Reset: User Roles were initialized"
+msgstr "الأدوات: إعادة الضبط: تمت تهيئة رتب المستخدم"
+
+#: includes/classes/screen-help.php:26
+msgid "Show confirmation dialog before save changes made to a current role."
+msgstr "إظهار مربع حوار التأكيد قبل حفظ التغييرات التي تم إجراؤها على الرتبة الحالية."
+
+#: includes/classes/screen-help.php:25 includes/settings-template.php:86
+msgid "Confirm role update"
+msgstr "تأكيد تحديث الرتبة"
+
+#: includes/classes/role-additional-options.php:113
+msgid "Additional Options"
+msgstr "خيارات إضافية"
+
+#: includes/classes/role-additional-options.php:53
+msgid "Hide admin bar"
+msgstr "إخفاء شريط أدوات المسؤول"
+
+#: includes/classes/grant-roles.php:488
+msgid "Select role(s) which you wish to grant!"
+msgstr "حدد الرتبة (الرُتب) التي ترغب في منحها!"
+
+#: includes/classes/grant-roles.php:487
+msgid "Select users to which you wish to grant roles!"
+msgstr "حدد المستخدمين الذين ترغب في منح رتب لهم!"
+
+#: includes/classes/grant-roles.php:486
+msgid "Grant roles to selected users"
+msgstr "منح الرتب للمستخدمين المحددين"
+
+#: includes/classes/view.php:289
+msgid "Working..."
+msgstr "جار العمل..."
+
+#: includes/classes/grant-roles.php:440
+msgid "Grant Roles"
+msgstr "منح الرتب"
+
+#: includes/classes/grant-roles.php:398
+msgid "Other Roles: "
+msgstr "الرتب الأخرى: "
+
+#: includes/classes/grant-roles.php:378
+msgid "Primary Role: "
+msgstr "الرتبة الأساسية: "
+
+#: includes/classes/grant-roles.php:355
+msgid "Requested user does not exist"
+msgstr "المستخدم المطلوب غير موجود"
+
+#: includes/classes/grant-roles.php:349
+msgid "Wrong request, valid user ID was missed"
+msgstr "طلب خاطئ، تم فقد معرف مستخدم (ID) صالح"
+
+#: includes/classes/grant-roles.php:332
+msgid "Roles were granted to users successfully"
+msgstr "تم منح الرتب للمستخدمين بنجاح"
+
+#: includes/classes/grant-roles.php:323
+msgid "Invalid data at the other roles list"
+msgstr "بيانات غير صالحة في قائمة الرتب الأخرى"
+
+#: includes/classes/grant-roles.php:310
+msgid "Invalid primary role"
+msgstr "الرتبة الأساسية غير صالحة"
+
+#: includes/classes/grant-roles.php:302
+msgid "Can not edit user or invalid data at the users list"
+msgstr "لا يمكن تعديل بيانات المستخدم أو بيانات غير صالحة في قائمة المستخدمين"
+
+#: includes/classes/grant-roles.php:296 includes/classes/grant-roles.php:342
+msgid "Not enough permissions"
+msgstr "لا توجد أذونات كافية"
+
+#: includes/classes/capability.php:231
+msgid "capabilities were removed successfully"
+msgstr "تم إزالة الصلاحيات بنجاح"
+
+#: includes/classes/capability.php:216 includes/classes/capability.php:221
+msgid "There are no capabilities available for deletion!"
+msgstr "لا توجد صلاحية متاحة للحذف!"
+
+#: includes/classes/capability.php:48
+msgid "Error: this capability is used internally by WordPress"
+msgstr "خطأ: يتم استخدام هذه الصلاحية داخليًا بواسطة ووردبريس"
+
+#: includes/classes/capabilities-groups-manager.php:194
+msgid "Deprecated"
+msgstr "مهمل"
+
+#: includes/classes/capabilities-groups-manager.php:165
+msgid "Users"
+msgstr "المستخدمين"
+
+#: includes/classes/capabilities-groups-manager.php:160
+msgid "Plugins"
+msgstr "الإضافات"
+
+#: includes/classes/capabilities-groups-manager.php:155
+msgid "Pages"
+msgstr "الصفحات"
+
+#: includes/classes/capabilities-groups-manager.php:150
+msgid "Posts"
+msgstr "المقالات"
+
+#: includes/classes/capabilities-groups-manager.php:145
+msgid "Themes"
+msgstr "القوالب"
+
+#: includes/classes/capabilities-groups-manager.php:130
+msgid "All"
+msgstr "الكل"
+
+#: includes/classes/capabilities-groups-manager.php:108
+#: includes/classes/capabilities-groups-manager.php:135
+msgid "Core"
+msgstr "نواة النظام Core"
+
+#: includes/classes/capabilities-groups-manager.php:103
+msgid "WooCommerce"
+msgstr "ووكومرس"
+
+#: includes/classes/capabilities-groups-manager.php:45
+msgid "Custom Post Types"
+msgstr "أنواع الصفحات المخصصة"
+
+#. Author of the plugin
+msgid "Vladimir Garagulya"
+msgstr "Vladimir Garagulya"
+
+#. Description of the plugin
+msgid "Change/add/delete WordPress user roles and capabilities."
+msgstr "تغيير / إضافة / حذف رُتب مستخدم ووردبريس وإمكانياته."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.role-editor.com"
+msgstr "https://www.role-editor.com"
+
+#: includes/classes/user-view.php:190
+msgid "Other Roles:"
+msgstr "رتب أخرى:"
+
+#: includes/classes/user-view.php:181
+msgid "bbPress Role:"
+msgstr "رتبة bbPress:"
+
+#: includes/classes/user-view.php:175
+msgid "Primary Role:"
+msgstr "الرتبة الأساسية:"
+
+#: includes/classes/user-view.php:137
+msgid "Change capabilities for user"
+msgstr "تغيير إمكانيات للمستخدم"
+
+#: includes/classes/user-view.php:71
+msgid "Network Super Admin"
+msgstr "المدير العام للشبكة"
+
+#: includes/classes/capabilities-groups-manager.php:201
+msgid "Custom capabilities"
+msgstr "إمكانيات مخصصة"
+
+#: includes/classes/view.php:333
+msgid "Quick filter:"
+msgstr "تصفية سريعة:"
+
+#: includes/classes/role-view.php:380 includes/classes/tools.php:31
+msgid "Apply to All Sites"
+msgstr "تطبيق على جميع المواقع"
+
+#: includes/classes/role-view.php:367
+msgid "If checked, then apply action to ALL sites of this Network"
+msgstr "إذا تم تحديده، فسيتم تطبيق الإجراء على جميع مواقع هذه الشبكة"
+
+#: includes/classes/role-view.php:353 includes/classes/user-view.php:154
+msgid "Show capabilities in human readable form"
+msgstr "إظهار الصلاحيات بشكل مقروء للإنسان"
+
+#: includes/classes/role-view.php:397
+msgid "Select Role and change its capabilities:"
+msgstr "تحديد الرتبة لتغيير إمكانياتها:"
+
+#: includes/settings-template.php:207
+msgid "Allow non super administrators to create, edit, and delete users"
+msgstr "السماح لغير المدراء (super administrators) بإنشاء المستخدمين وتحريرهم وحذفهم"
+
+#: includes/settings-template.php:181
+msgid "Note for multisite environment: take into account that other default roles should exist at the site, in order to be assigned to the new registered users."
+msgstr "ملاحظة لبيئة المواقع متعددة المواقع: يجب مراعاة وجود أدوار افتراضية أخرى في الموقع، من أجل إسنادها وتخصيصها للمستخدمين المسجلين الجدد."
+
+#: includes/settings-template.php:175
+msgid "Other default roles for new registered user: "
+msgstr "الرتب الافتراضية الأخرى للمستخدم المسجل حديثًا:"
+
+#: includes/settings-template.php:168
+msgid "Primary default role: "
+msgstr "الرتبة الافتراضية الأساسية: "
+
+#: includes/settings-template.php:121 includes/settings-template.php:156
+#: includes/settings-template.php:188 includes/settings-template.php:220
+msgid "Save"
+msgstr "حفظ"
+
+#: includes/settings-template.php:46
+msgid "About"
+msgstr "حول"
+
+#: includes/settings-template.php:16
+msgid "User Role Editor - Options"
+msgstr "User Role Editor - الإعدادات"
+
+#: includes/classes/user-role-editor.php:776
+msgid " Capability name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr "يجب أن يحتوي اسم الصلاحية (ID) على أحرف لاتينية أو أرقام أو شرطة أو شرطة سفلية فقط!"
+
+#: includes/classes/user-role-editor.php:775
+msgid " Capability name (ID) can not be empty!"
+msgstr " اسم الصلاحية (ID) لا يمكن أن يكون فارغاً!"
+
+#: includes/classes/user-role-editor.php:774
+msgid "Warning! Be careful - removing critical capability could crash some plugin or other custom code"
+msgstr "تحذير! كن حذرًا - قد تؤدي إزالة الصلاحية الحرجة إلى تعطل بعض الإضافات أو الأكواد المخصصة الأخرى"
+
+#: includes/classes/user-role-editor.php:772
+msgid "Set New Default Role"
+msgstr "تعيين رتبة افتراضية جديدة"
+
+#: includes/classes/user-role-editor.php:771
+msgid "Default Role"
+msgstr "الرتبة الافتراضية"
+
+#: includes/classes/user-role-editor.php:810
+msgid "Continue?"
+msgstr "استمرار؟"
+
+#: includes/classes/user-role-editor.php:808
+msgid "For more information on how to undo undesired changes and restore plugin capabilities go to"
+msgstr "لمزيد من المعلومات حول كيفية التراجع عن التغييرات غير المرغوب فيها واستعادة إمكانيات الإضافة، انتقل إلى"
+
+#: includes/classes/tools.php:40 includes/classes/user-role-editor.php:804
+msgid "Reset"
+msgstr "إعادة تعيين"
+
+#: includes/classes/user-role-editor.php:770
+#: includes/classes/user-role-editor.php:773
+msgid "Delete Capability"
+msgstr "حذف صلاحية"
+
+#: includes/classes/user-role-editor.php:769
+msgid "Add Capability"
+msgstr "إضافة صلاحية"
+
+#: includes/classes/user-role-editor.php:768
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: includes/classes/user-role-editor.php:767
+msgid "Delete Role"
+msgstr "حذف رتبة"
+
+#: includes/classes/user-role-editor.php:765
+msgid "Add Role"
+msgstr "إضافة رتبة"
+
+#: includes/classes/user-role-editor.php:764
+msgid " WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr "لا يدعم ووردبريس اسم الرتبة (ID) كأرقام. أضف حروف لاتينية إليه."
+
+#: includes/classes/user-role-editor.php:763
+msgid " Role name (ID) must contain latin characters, digits, hyphens or underscore only!"
+msgstr "يجب أن يحتوي اسم الرتبة (ID) على أحرف لاتينية أو أرقام أو شرطة أو شرطة سفلية فقط!"
+
+#: includes/classes/user-role-editor.php:762
+msgid " Role name (ID) can not be empty!"
+msgstr " اسم الرتبة (ID) لا يمكن أن يكون فارغًا!"
+
+#: includes/classes/user-role-editor.php:761
+#: includes/classes/user-role-editor.php:766
+msgid "Rename Role"
+msgstr "إعادة تسمية الرتبة"
+
+#: includes/classes/user-role-editor.php:760
+msgid "Add New Role"
+msgstr "إضافة رتبة جديدة"
+
+#: includes/classes/user-role-editor.php:759
+msgid "Please confirm permissions update"
+msgstr "يرجى تأكيد تحديث الأذونات"
+
+#: includes/classes/user-role-editor.php:758
+msgid "Update"
+msgstr "تحديث"
+
+#: includes/classes/user-role-editor.php:632
+msgid "You do not have sufficient permissions to manage options for User Role Editor."
+msgstr "ليس لديك أذونات كافية لإدارة خيارات User Role Editor."
+
+#: includes/classes/settings.php:120
+msgid "Default Roles are updated"
+msgstr "يتم تحديث الرتب الافتراضية"
+
+#: includes/classes/settings.php:70 includes/classes/settings.php:90
+#: includes/classes/settings.php:140
+msgid "User Role Editor options are updated"
+msgstr "تم تحديث خيارات User Role Editor"
+
+#: includes/classes/capabilities-groups-manager.php:187
+#: includes/classes/user-role-editor.php:573 includes/settings-template.php:36
+msgid "Multisite"
+msgstr "مواقع متعددة"
+
+#: includes/classes/user-role-editor.php:567 includes/settings-template.php:31
+msgid "Default Roles"
+msgstr "الرتب الافتراضية"
+
+#: includes/classes/user-role-editor.php:561 includes/settings-template.php:26
+msgid "Additional Modules"
+msgstr "وحدات إضافية"
+
+#: includes/classes/capabilities-groups-manager.php:140
+#: includes/classes/user-role-editor.php:555 includes/settings-template.php:20
+msgid "General"
+msgstr "عام"
+
+#: includes/classes/user-role-editor.php:506
+#: includes/classes/user-role-editor.php:519
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/classes/user-role-editor.php:370
+#: includes/classes/user-role-editor.php:372
+msgid "You do not have permission to edit this user."
+msgstr "ليس لديك إذن لتعديل هذا المستخدم."
+
+#: includes/classes/user-role-editor.php:298
+msgid "Provide new role"
+msgstr "قم بتوفير رتبة جديدة"
+
+#: includes/classes/user-role-editor.php:297
+msgid "No rights"
+msgstr "بدون حقوق"
+
+#: includes/classes/user-role-editor.php:295
+msgid "Change role for users without role"
+msgstr "تغيير الرتبة للمستخدمين بدون رتبة"
+
+#: includes/classes/user-other-roles.php:309
+msgid "Additional Capabilities"
+msgstr "الصلاحيات الإضافية"
+
+#: includes/classes/user-other-roles.php:245
+msgid "Edit"
+msgstr "تحرير"
+
+#: includes/classes/user-other-roles.php:238
+#: includes/classes/user-role-editor.php:398
+msgid "Capabilities"
+msgstr "الصلاحيات"
+
+#: includes/classes/user-other-roles.php:125
+msgid "Select additional roles for this user"
+msgstr "حدد رتب إضافية لهذا المستخدم"
+
+#: includes/classes/user-other-roles.php:124
+#: includes/classes/user-other-roles.php:259
+msgid "Other Roles"
+msgstr "رتب أخرى"
+
+#: includes/classes/screen-help.php:84
+msgid "Allow non super-administrators to create, edit and delete users"
+msgstr "السماح لغير المدراء (super administrators) بإنشاء المستخدمين وتحريرهم وحذفهم"
+
+#: includes/classes/screen-help.php:65
+msgid "Other default roles for new registered user"
+msgstr "الرتب الافتراضية الأخرى للمستخدم المسجل حديثا"
+
+#: includes/classes/screen-help.php:47 includes/settings-template.php:141
+msgid "Count users without role"
+msgstr "حساب عدد المستخدمين دون رتبة"
+
+#: includes/classes/screen-help.php:27 includes/settings-template.php:94
+msgid "Edit user capabilities"
+msgstr "تعديل إمكانيات المستخدم"
+
+#: includes/classes/role-view.php:363 includes/classes/screen-help.php:21
+#: includes/classes/user-view.php:164 includes/settings-template.php:78
+msgid "Show deprecated capabilities"
+msgstr "عرض الصلاحيات المهملة"
+
+#: includes/classes/screen-help.php:18 includes/settings-template.php:70
+msgid "Show capabilities in the human readable form"
+msgstr "إظهار الصلاحيات بشكل مقروء للإنسان"
+
+#: includes/classes/screen-help.php:15 includes/settings-template.php:61
+msgid "Show Administrator role at User Role Editor"
+msgstr "إظهار رتبة المدير في User Role Editor"
+
+#: includes/classes/screen-help.php:12 includes/classes/screen-help.php:43
+#: includes/classes/screen-help.php:62 includes/classes/screen-help.php:81
+msgid "User Role Editor Options page help"
+msgstr "صفحة المساعدة لخيارات User Role Editor"
+
+#: includes/classes/user-other-roles.php:222
+msgid "Denied: %s"
+msgstr "مرفوض: %s"
+
+#: includes/classes/grant-roles.php:384 includes/classes/user-view.php:96
+msgid "&mdash; No role for this site &mdash;"
+msgstr "&mdash; ليس هناك رتبة لهذا الموقع &mdash;"
+
+#: includes/classes/role-view.php:64
+msgid "None"
+msgstr "لا يوجد"
+
+#: includes/classes/role-view.php:96
+msgid "Delete All Unused Roles"
+msgstr "حذف جميع الرتب غير المستخدمة"
+
+#: includes/classes/lib.php:388
+msgid "FAQ"
+msgstr "الأسئلة المتكررّة"
+
+#: includes/classes/lib.php:387 includes/classes/user-role-editor.php:532
+msgid "Changelog"
+msgstr "سجل التغييرات"
+
+#: includes/classes/lib.php:386
+msgid "Plugin download"
+msgstr "تنزيل الإضافة"
+
+#: includes/classes/lib.php:385
+msgid "Plugin webpage"
+msgstr "صفحة ويب الإضافة"
+
+#: includes/classes/lib.php:384
+msgid "Author's website"
+msgstr "موقع المؤلف"
+
+#: includes/classes/lib.php:383
+msgid "Version:"
+msgstr "النسخة:"
+
+#: includes/classes/capability.php:227
+msgid "Capability %s was removed successfully"
+msgstr "تمت إزالة الصلاحية %s بنجاح"
+
+#: includes/classes/capability.php:117
+msgid "Capability %s exists already"
+msgstr "الصلاحية %s موجودة بالفعل"
+
+#: includes/classes/capability.php:115
+msgid "Capability %s was added successfully"
+msgstr "تمت إضافة الصلاحية %s بنجاح"
+
+#: includes/classes/capability.php:38
+msgid "Error: Capability name must contain latin characters and digits only!"
+msgstr "خطأ: يجب أن يحتوي اسم الصلاحية على أحرف وأرقام لاتينية فقط!"
+
+#: includes/classes/editor.php:1619
+msgid "Export"
+msgstr "تصدير"
+
+#: includes/classes/editor.php:1618
+msgid "Delete themes"
+msgstr "حذف القوالب"
+
+#: includes/classes/editor.php:1617
+msgid "Edit theme options"
+msgstr "تعديل خيارات القالب"
+
+#: includes/classes/editor.php:1616
+msgid "Promote users"
+msgstr "ترقية المستخدمين"
+
+#: includes/classes/editor.php:1615
+msgid "Add users"
+msgstr "إضافة مستخدمين"
+
+#: includes/classes/editor.php:1614
+msgid "Remove users"
+msgstr "إزالة المستخدمين"
+
+#: includes/classes/editor.php:1613
+msgid "List users"
+msgstr "قائمة المستخدمين"
+
+#: includes/classes/editor.php:1612
+msgid "Update core"
+msgstr "تحديث Core"
+
+#: includes/classes/editor.php:1611
+msgid "Install themes"
+msgstr "تثبيت القوالب"
+
+#: includes/classes/editor.php:1610
+msgid "Update themes"
+msgstr "تحديث القوالب"
+
+#: includes/classes/editor.php:1609
+msgid "Install plugins"
+msgstr "تثبيت الاضافات"
+
+#: includes/classes/editor.php:1608
+msgid "Delete plugins"
+msgstr "حذف الإضافات"
+
+#: includes/classes/editor.php:1607
+msgid "Update plugins"
+msgstr "تحديث الإضافات"
+
+#: includes/classes/editor.php:1606
+msgid "Edit dashboard"
+msgstr "تعديل لوحة التحكم"
+
+#: includes/classes/editor.php:1605
+msgid "Unfiltered upload"
+msgstr "رفع بدون تصفية"
+
+#: includes/classes/editor.php:1604
+msgid "Create users"
+msgstr "إنشاء المستخدمين"
+
+#: includes/classes/editor.php:1603
+msgid "Delete users"
+msgstr "حذف المستخدمين"
+
+#: includes/classes/editor.php:1602
+msgid "Read private pages"
+msgstr "قراءة الصفحات الخاصة"
+
+#: includes/classes/editor.php:1601
+msgid "Edit private pages"
+msgstr "تحرير الصفحات الخاصة"
+
+#: includes/classes/editor.php:1600
+msgid "Delete private pages"
+msgstr "حذف الصفحات الخاصة"
+
+#: includes/classes/editor.php:1599
+msgid "Read private posts"
+msgstr "قراءة المقالات الخاصة"
+
+#: includes/classes/editor.php:1598
+msgid "Edit private posts"
+msgstr "تحرير المقالات الخاصة"
+
+#: includes/classes/editor.php:1597
+msgid "Delete private posts"
+msgstr "حذف المقالات الخاصة"
+
+#: includes/classes/editor.php:1596
+msgid "Delete published posts"
+msgstr "حذف المقالات المنشورة"
+
+#: includes/classes/editor.php:1595
+msgid "Delete others posts"
+msgstr "حذف مقالات الآخرين"
+
+#: includes/classes/editor.php:1594
+msgid "Delete posts"
+msgstr "حذف المقالات"
+
+#: includes/classes/editor.php:1593
+msgid "Delete published pages"
+msgstr "حذف الصفحات المنشورة"
+
+#: includes/classes/editor.php:1592
+msgid "Delete others pages"
+msgstr "حذف صفحات الآخرين"
+
+#: includes/classes/editor.php:1591
+msgid "Delete pages"
+msgstr "حذف الصفحات"
+
+#: includes/classes/editor.php:1590
+msgid "Publish pages"
+msgstr "نشر الصفحات"
+
+#: includes/classes/editor.php:1589
+msgid "Edit published pages"
+msgstr "تحرير الصفحات المنشورة"
+
+#: includes/classes/editor.php:1588
+msgid "Edit others pages"
+msgstr "تحرير صفحات الآخرين"
+
+#: includes/classes/editor.php:1587
+msgid "Level 0"
+msgstr "المستوى 0"
+
+#: includes/classes/editor.php:1586
+msgid "Level 1"
+msgstr "المستوى 1"
+
+#: includes/classes/editor.php:1585
+msgid "Level 2"
+msgstr "المستوى 2"
+
+#: includes/classes/editor.php:1584
+msgid "Level 3"
+msgstr "المستوى 3"
+
+#: includes/classes/editor.php:1583
+msgid "Level 4"
+msgstr "المستوى 4"
+
+#: includes/classes/editor.php:1582
+msgid "Level 5"
+msgstr "المستوى 5"
+
+#: includes/classes/editor.php:1581
+msgid "Level 6"
+msgstr "المستوى 6"
+
+#: includes/classes/editor.php:1580
+msgid "Level 7"
+msgstr "المستوى 7"
+
+#: includes/classes/editor.php:1579
+msgid "Level 8"
+msgstr "المستوى 8"
+
+#: includes/classes/editor.php:1578
+msgid "Level 9"
+msgstr "المستوى 9"
+
+#: includes/classes/editor.php:1577
+msgid "Level 10"
+msgstr "المستوى 10"
+
+#: includes/classes/editor.php:1576
+msgid "Read"
+msgstr "قراءة"
+
+#: includes/classes/editor.php:1575
+msgid "Edit pages"
+msgstr "تحرير الصفحات"
+
+#: includes/classes/editor.php:1574
+msgid "Publish posts"
+msgstr "نشر المقالات"
+
+#: includes/classes/editor.php:1573
+msgid "Edit published posts"
+msgstr "تحرير المقالات المنشورة"
+
+#: includes/classes/editor.php:1572
+msgid "Edit others posts"
+msgstr "تحرير مقالات الآخرين"
+
+#: includes/classes/editor.php:1571
+msgid "Edit posts"
+msgstr "تحرير المقالات"
+
+#: includes/classes/editor.php:1570
+msgid "Unfiltered html"
+msgstr "HTML غير مفلتر"
+
+#: includes/classes/editor.php:1569
+msgid "Import"
+msgstr "استيراد"
+
+#: includes/classes/editor.php:1568
+msgid "Upload files"
+msgstr "رفع ملفات"
+
+#: includes/classes/editor.php:1567
+msgid "Manage links"
+msgstr "إدارة الروابط"
+
+#: includes/classes/editor.php:1566
+msgid "Manage categories"
+msgstr "إدارة التصنيفات"
+
+#: includes/classes/editor.php:1565
+msgid "Moderate comments"
+msgstr "إدارة التعليقات"
+
+#: includes/classes/editor.php:1564
+msgid "Manage options"
+msgstr "إدارة الخيارات"
+
+#: includes/classes/editor.php:1563
+msgid "Edit files"
+msgstr "تحرير الملفات"
+
+#: includes/classes/editor.php:1562
+msgid "Edit users"
+msgstr "تعديل المستخدمين"
+
+#: includes/classes/editor.php:1561
+msgid "Edit plugins"
+msgstr "تعديل الإضافات"
+
+#: includes/classes/editor.php:1560
+msgid "Activate plugins"
+msgstr "تنشيط الإضافات"
+
+#: includes/classes/editor.php:1559
+msgid "Edit themes"
+msgstr "تحرير القوالب"
+
+#: includes/classes/editor.php:1558
+msgid "Switch themes"
+msgstr "تبديل القوالب"
+
+#: includes/classes/editor.php:1556
+msgid "Subscriber"
+msgstr "مشترك"
+
+#: includes/classes/editor.php:1555
+msgid "Contributor"
+msgstr "مساهم"
+
+#: includes/classes/editor.php:1554
+msgid "Author"
+msgstr "كاتب"
+
+#: includes/classes/editor.php:1553
+msgid "Editor"
+msgstr "محرر"
+
+#: includes/classes/editor.php:1348
+msgid "This role does not exist - "
+msgstr "هذه الرتبة غير موجودة - "
+
+#: includes/classes/editor.php:1346
+msgid "Can not set Administrator role as a default one"
+msgstr "لا يمكن تعيين رتبة المدير كرتبة افتراضية"
+
+#: includes/classes/editor.php:1341
+msgid "Default role for new users is set to %s successfully"
+msgstr "تم تعيين الرتبة الافتراضية للمستخدمين الجدد على %s بنجاح"
+
+#: includes/classes/editor.php:1343
+msgid "Error encountered during default role change operation"
+msgstr "حدث خطأ أثناء عملية تغيير الرتبة الافتراضية"
+
+#: includes/classes/editor.php:1297
+msgid "Role %s is deleted successfully"
+msgstr "تم حذف الرتبة %s بنجاح"
+
+#: includes/classes/editor.php:1295
+msgid "Unused roles are deleted successfully"
+msgstr "تم حذف الرتب غير المستخدمة بنجاح"
+
+#: includes/classes/editor.php:1163
+msgid "Role %s is renamed to %s successfully"
+msgstr "تمت إعادة تسمية الرتبة %s إلى %s بنجاح"
+
+#: includes/classes/editor.php:1150
+msgid "Role %s does not exists"
+msgstr "الرتبة %s غير موجودة"
+
+#: includes/classes/editor.php:1143
+msgid "Error: Empty role display name is not allowed."
+msgstr "خطأ: اسم عرض الرتبة الفارغ غير مسموح به."
+
+#: includes/classes/editor.php:983
+msgid "Error: Role ID is empty!"
+msgstr "خطأ: معرف الرتبة (ID) فارغ!"
+
+#: includes/classes/editor.php:1058
+msgid "Role %s is created successfully"
+msgstr "تم إنشاء الرتبة %s بنجاح"
+
+#: includes/classes/editor.php:1051
+msgid "Error is encountered during new role create operation"
+msgstr "تمت مصادفة خطأ أثناء عملية إنشاء رتبة جديدة"
+
+#: includes/classes/editor.php:1032
+msgid "Role %s exists already"
+msgstr "الرتبة %s موجودة بالفعل"
+
+#: includes/classes/editor.php:998
+msgid "Error: WordPress does not support numeric Role name (ID). Add latin characters to it."
+msgstr "خطأ: لا يدعم ووردبريس اسم الرتبة (ID) كأرقام. قم بإضافة حروف لاتينية إليه."
+
+#: includes/classes/editor.php:992
+msgid "Error: Role ID must contain latin characters, digits, hyphens or underscore only!"
+msgstr "خطأ: يجب أن يحتوي معرف الرتبة على أحرف لاتينية أو أرقام أو شرطة أو شرطة سفلية فقط!"
+
+#: includes/classes/capability.php:89 includes/classes/capability.php:209
+#: includes/classes/editor.php:950 includes/classes/editor.php:1019
+#: includes/classes/editor.php:1070 includes/classes/editor.php:1131
+#: includes/classes/editor.php:1277 includes/classes/editor.php:1319
+#: includes/classes/user-role-editor.php:665
+msgid "Insufficient permissions to work with User Role Editor"
+msgstr "أذونات غير كافية للعمل مع User Role Editor"
+
+#: includes/classes/editor.php:1393
+msgid "User Roles are restored to WordPress default values. "
+msgstr "تمت استعادة رتب المستخدم إلى القيم الافتراضية في ووردبريس. "
+
+#: includes/classes/editor.php:913
+msgid "Error occurred during user update"
+msgstr "حدث خطأ أثناء تحديث المستخدم"
+
+#: includes/classes/editor.php:911
+msgid "User capabilities are updated successfully"
+msgstr "تمّ تحديث إمكانات المستخدم بنجاح"
+
+#: includes/classes/editor.php:907
+msgid "Error occurred during role(s) update"
+msgstr "حدث خطأ أثناء تحديث الرتب"
+
+#: includes/classes/editor.php:904
+msgid "Roles are updated for all network"
+msgstr "تم تحديث الرتب لجميع الشبكات"
+
+#: includes/classes/editor.php:902
+msgid "Role is updated successfully"
+msgstr "تم تحديث الرتبة بنجاح"
+
+#: includes/classes/editor.php:237
+msgid "does not exist"
+msgstr "غير موجود"
+
+#: includes/classes/editor.php:236
+msgid "Role"
+msgstr "الرتبة"
+
+#: includes/classes/editor.php:234 includes/classes/editor.php:236
+msgid "Error: "
+msgstr "خطأ: "
+
+#. Plugin Name of the plugin
+#: includes/classes/capabilities-groups-manager.php:84
+#: includes/classes/editor.php:1483 includes/classes/user-role-editor.php:586
+#: includes/classes/user-role-editor.php:587
+#: includes/classes/user-role-editor.php:599
+#: includes/classes/user-role-editor.php:600
+#: includes/classes/user-role-editor.php:615
+#: includes/classes/user-role-editor.php:616
+msgid "User Role Editor"
+msgstr "User Role Editor"
+
+#: includes/classes/role-view.php:241
+msgid "Capability name (ID): "
+msgstr "اسم الصلاحية (مُعرّف): "
+
+#: includes/classes/role-view.php:216
+msgid "Select Role:"
+msgstr "تحديد الرتبة:"
+
+#: includes/classes/role-view.php:200
+msgid "Make copy of: "
+msgstr "عمل نسخة من: "
+
+#: includes/classes/role-view.php:198 includes/classes/role-view.php:209
+msgid "Display Role Name: "
+msgstr "اسم العرض للرتبة: "
+
+#: includes/classes/role-view.php:196 includes/classes/role-view.php:207
+msgid "Role name (ID): "
+msgstr "اسم الرتبة (ID): "
+
+#: includes/classes/editor.php:1524
+msgid "Error: wrong request"
+msgstr "خطأ: طلب خاطئ"
