@@ -112,8 +112,11 @@
     <br>
     <ul>
         <li> Go to: <strong>Plugins > Add New.</strong></li>
-        <li>Search for “WooCommerce”.</li>
-        <li> Click <strong>Install Now.</strong></li>
-        <li> Click <strong>Activate Now</strong> and you’re ready for the WooCommerce Wizard.</li>
+        <li><strong>Username</strong></li>
+        <li><strong>Password</strong></li>
+        <li><strong>Database host</strong></li>
+        <li><strong>Table prefix</strong></li>
     </ul>
+    <br>
+    <img src="img/19.webp" alt="" style="width: 200px; margin:1rem;">
 </p>
